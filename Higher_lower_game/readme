@@ -1,0 +1,28 @@
+# Higher-Lower Game
+
+This is a Python implementation of the Higher-Lower game. The game challenges the player to guess which of two options has a higher number of followers on social media.
+
+## How to Play
+
+1. The game will present two options (A and B) with their name, description, and country.
+2. The player must guess which option has more followers by typing `'A'` or `'B'`.
+3. If the guess is correct, the player earns a point, and the game continues with a new comparison.
+4. If the guess is incorrect, the game ends, and the player's final score is displayed.
+
+## Features
+
+- **Randomized Data**: The game uses random selections from a dataset to ensure variety.
+- **Score Tracking**: The game keeps track of the player's score across rounds.
+- **Interactive Gameplay**: The player can continue playing until they make an incorrect guess.
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   ```
+2. Navigate to the Higher_lower_game folder:
+   cd Higher_lower_game
+
+3. Run the game:
+   python main.py
